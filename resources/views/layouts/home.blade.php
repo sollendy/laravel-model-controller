@@ -19,7 +19,7 @@
     @include('partials/header')
     <div class="container">
         @foreach ($movies as $film)
-        <div class="card" style="width: 18rem;">
+        <div class="card mb-4" style="width: 18rem;">
             <div class="card-body">
               <h4 class="card-title">{{$film["title"]}}</h4>
               <hr>
